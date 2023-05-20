@@ -28,7 +28,7 @@ MANIFEST
 
 #ignore data folder
 data/
-fasttext/lid.176.bin
+fasttext/
 
 
 # PyInstaller
