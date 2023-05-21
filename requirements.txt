@@ -4,3 +4,5 @@ matplotlib==3.7.1
 tqdm==4.65.0
 fasttext==0.9.2
 seaborn==0.12.2
+nltk==3.8.1
+scikit-learn==1.2.2
