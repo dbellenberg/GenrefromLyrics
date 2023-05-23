@@ -6,3 +6,6 @@ fasttext==0.9.2
 seaborn==0.12.2
 nltk==3.8.1
 scikit-learn==1.2.2
+torch
+transformers
+pytorch_lightning
