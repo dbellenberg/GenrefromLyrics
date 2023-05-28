@@ -87,12 +87,10 @@ def predict_genre(Artist, Title, Lyrics):
 
     label_map = {0: 'Country', 1: 'Pop', 2: 'Rap', 3: 'R&B', 4: 'Rock'}
     
-    probabilities_dict = {label_map[i]: float(prob) for i, prob in enumerate(probabilities[0])}  # convert numpy.float32 to float
+    probabilities_dict = {label_map[i]: float(prob) for i, prob in enumerate(probabilities[0])}  
 
     return probabilities_dict
 
-
-#description = '<img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Spotify Logo">'
 description = '<img src="https://i.imgur.com/q4xD7ry.png" alt="BertBeats Logo">'
 
 iface = gr.Interface(
